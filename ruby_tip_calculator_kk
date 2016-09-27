@@ -1,0 +1,6 @@
+bill_amount = 100
+
+def tip_amount(bill_amount)
+  return bill_amount * 0.20
+end
+puts tip_amount(bill_amount).to_f
