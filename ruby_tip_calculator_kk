@@ -1,3 +1,5 @@
+#This is work-in progress - not finished yet!
+
 bill_amount = 100
 
 def tip_amount(bill_amount)
