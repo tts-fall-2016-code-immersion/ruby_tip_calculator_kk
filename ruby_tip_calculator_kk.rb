@@ -12,3 +12,10 @@ def sum_amount(bill_amount)
   return bill_amount + tip_amount(bill_amount)
 end
 puts "The bill plus a 20% tip is #{sum_amount(bill_amount)}."
+
+
+
+def total_grat(bill_amount)
+  return bill_amount + (bill_amount * 0.20)
+end
+puts "The bill plus a 20% tip is #{total_grat(bill_amount)}."
