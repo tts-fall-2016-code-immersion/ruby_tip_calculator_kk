@@ -6,3 +6,8 @@ def tip_amount(bill_amount)
   return bill_amount * 0.20
 end
 puts tip_amount(bill_amount).to_f
+
+def sum(bill amount)
+return bill_amount + tip_amount
+end
+puts sum(bill_amount).to_f
